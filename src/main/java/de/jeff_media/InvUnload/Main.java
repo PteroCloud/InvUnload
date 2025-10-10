@@ -95,8 +95,6 @@ public class Main extends JavaPlugin implements Listener {
 
 		instance = this;
 
-		Metrics metrics = new Metrics(this, 3156);
-
 		reloadCompleteConfig(false);
 
 		if (!getConfig().getBoolean("use-chestsort") || Bukkit.getPluginManager().getPlugin("ChestSort") == null) {
